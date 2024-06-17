@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "poppins",sans-serif; */
+    /* font-family: 'Nunito Sans',sans-serif; */
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.33)),url(./Images/bgimg\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.topnavbar{
+    width: 100%;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.topnavbar .topnavbarleft  i span{
+    font-weight: 500;
+    font-size: 14px;
+    margin: 3px;
+    
+}
+
+.topnavbarright i:not(:last-child){
+    margin-right: 10px;
+
+}
+
+.navbar{
+    padding:1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    
+}
+
+.listContent{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.listContent li:not(:last-child){
+    margin-right:15px ;
+}
+
+.fa-brands:hover{
+    color: gray;
+    background-color: lightblue ;
+    border-radius: 3px;
+    border: 2px solid transparent;
+}
+
+a{
+    transition: 0.2s ease-in-out;
+}
+a :hover{
+    color: rgb(255, 0, 115);
+}
+
+.leftcontent h3{
+    color: rgb(118, 118, 248);
+    font-weight: bolder;
+}
+ h3 >span{
+    color: rgb(234, 137, 39);
+}
+
+.listContent a{
+    color: #000;
+    font-weight: 500;
+}
+
+.InnerheadingContent{
+    height: 10rem;
+    width: 40%;
+    color: #fff;
+    text-align: center;
+}
+
+.OuterheadingContent{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.OuterheadingContent h1{
+    font-weight: 1000;
+    font-size: 80px;
+}
+
+.header-btn{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.header-btn:hover{
+    color: rgb(64, 62, 62);
+    background-color: violet;
+    transition: 0.2s ease-out;
+}
+
+.header-btn:focus{
+    outline: none;
+}
